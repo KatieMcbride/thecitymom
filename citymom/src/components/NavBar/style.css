@@ -1,6 +1,10 @@
 /* NAVBAR */
 .navBar{
     font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 .main-logo{
@@ -15,17 +19,21 @@
 ul.nav {
     width:100%;
     margin:0 auto;
+    margin-top: 2em;
     padding:0;
     list-style:none;
     background-color:white;
     text-align:center;
-    font-family: sans-serif; 
+    font-family: 'Work Sans', sans-serif;
+  
+    
 }
 .nav li { 
     display:inline-block;
     width:33%;
     margin:0;
     padding:0;
+    
 }
 .nav a {
     text-align:center;
@@ -34,6 +42,9 @@ ul.nav {
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
     display:block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
 }
 .nav a:hover { 
     background:white;
@@ -42,6 +53,7 @@ ul.nav {
 
 ul.nav li:first-child a{
     border:none;
+
 }
 
 /* ul.nav li:last-child a {
