@@ -8,8 +8,9 @@
 }
 
 .main-logo{
-    font-size: 3rem;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navShop{
@@ -45,6 +46,7 @@ ul.nav {
     text-transform: uppercase;
     text-decoration: none;
     color: black;
+    letter-spacing: 2px;
 }
 .nav a:hover { 
     background:white;

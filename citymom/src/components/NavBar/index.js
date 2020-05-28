@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
+import logo from './../../image/City Mom.png';
 
 function NavBar() {
     return (
@@ -15,7 +16,8 @@ function NavBar() {
         <li><a href="#">Work</a></li>
         <li><a href="#">Book Club</a></li>
 </ul>
-        <h1 className="main-logo">City Mom</h1>
+        {/* <h1 >City Mom</h1> */}
+        <img src={logo} height="200px" width="200px" className="main-logo"></img>
       </div>
     )
 };
