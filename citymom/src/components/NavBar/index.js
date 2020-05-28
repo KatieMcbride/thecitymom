@@ -8,9 +8,12 @@ function NavBar() {
           <img src={Logo} width="32" alt="logo" />
         </a> */}
         <ul className="nav">
-        <li><a href="#">Search</a></li>
-        <li><a href="#">Legend</a></li>
-        <li><a href="#">Info</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Pregnancy</a></li>
+        <li><a href="#">Parenting</a></li>
+        <li><a href="#">People</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Book Club</a></li>
 </ul>
         <h1 className="main-logo">City Mom</h1>
       </div>
