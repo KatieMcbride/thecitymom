@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
-import Photo from './../../image/sai-de-silva-4-gFGb12hFA-unsplash.jpg'
+import Photo from './../../image/vanessa-bucceri-gDiRwIYAMA8-unsplash.jpg'
 
 
 function Carousel() {
     return (
         <div>
-            <h1>Introducing our new products</h1>
-            <img src={Photo} width="100%"></img>
+            <h1 className="introducing">Introducing our new</h1>
+            <div className="img-txt">
+                <img id="image" src={Photo} width="100%"></img>
+                <p className="text"> top toy picks</p>
+                <button className="buttonShop">SHOP</button>
+            </div>
         </div>
    
     )
